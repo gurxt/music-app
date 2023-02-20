@@ -1,8 +1,12 @@
 import React from 'react'
+import Music from './components/music'
+import CSS from './assets/styled/application-css'
 
 const Application = () => {
     return (
-        <div>Hello Tim.</div>
+        <CSS.C>
+            <Music />
+        </CSS.C>
     )
 }
 
